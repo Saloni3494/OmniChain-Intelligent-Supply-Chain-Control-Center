@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://storage.googleapis.com/gweb-cloudblog-publish/images/Supply_Chain_Hero.max-2500x2500.jpg" alt="OmniChain Banner" width="100%">
+  <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=2500&auto=format&fit=crop" alt="OmniChain Banner" width="100%" height="400" style="object-fit: cover;">
   
   <h1>🌐 OmniChain</h1>
   <p><strong>Intelligent Supply Chain Control Center powered by Google AI</strong></p>
@@ -18,34 +18,120 @@
 
 ---
 
-## 🚨 The Problem
-Modern global supply chains are incredibly fragile. A single disruption—whether due to extreme weather, port congestion, or geopolitical events—can cause a cascading ripple effect resulting in massive financial losses and shortages of critical goods. 
+## 🚨 The Problem: Opportunities & Industry Needs
+<div align="center">
+  <img src="assets/opportunities_usp.png" alt="Opportunities & USP" width="100%">
+</div>
 
-Currently, logistics companies suffer from:
-1. **Fragmented Data:** Tracking systems don't communicate with predictive systems.
-2. **Reactive Interventions:** Planners only find out about disruptions *after* they happen.
-3. **Slow Decision Making:** It takes hours or days to calculate alternative routes and assess the impact of a delay.
+### 🏆 Opportunities
+- **Rising complexity** in global supply chains → huge demand for **intelligent systems**
+- **Growth** in e-commerce, agriculture, and healthcare logistics
+- Increasing focus on **sustainable (low-carbon) logistics**
+- Adoption of AI and **real-time data systems** in logistics industry
+- Easy scalability using **cloud platforms** like Google Cloud
 
-## 💡 Our Solution: OmniChain
-**OmniChain** is a real-time, proactive Supply Chain Control Center. We ingest massive amounts of streaming telemetry data and pass it through Google's Gemini AI to instantly assess risk levels, predict delays, and automatically recommend alternative routing before the disruption even occurs.
+---
 
-Our platform visualizes the global flow of goods on an interactive map, highlighting at-risk shipments so operators can make split-second, data-driven decisions.
+## 💡 Our Solution: OmniChain (How We Are Different)
+
+### 🏆 Unique Selling Propositions (USP)
+- **Self-Healing Supply Chain** – auto-detects & fixes disruptions
+- **AI-Driven Predictive Intelligence** – prevents delays before they occur
+- **Carbon-Aware Optimization** – sustainability + efficiency
+- **Real-Time Adaptive System** – live tracking + instant decisions
+- **Multi-Domain + Scalable** – works across industries & global logistics
+- **True AI Feedback Loop** – BigQuery ML models automatically adjust their weights after every delivery based on actual vs. predicted outcomes.
+
+### 🔍 How is it Different from Existing Solutions?
+| ❌ Existing Solution | ✅ Our Solution |
+| :--- | :--- |
+| Existing systems are **reactive** (respond after delay) | Our system is **predictive + proactive** (acts before disruption) |
+| **Static** route planning | **Dynamic rerouting** in real-time |
+| Focus only on **speed/cost** | **Multi-factor optimization** (time + cost + carbon) |
+| **No transparency** | **Explainable AI** (decision reasoning) |
 
 ---
 
 ## 🌟 Key Features
-- **Real-Time Data Ingestion:** Handles high-throughput shipment telemetry data instantly.
-- **AI Risk Assessment:** Evaluates weather, traffic, and shipment status to assign a Risk Level (Low, Medium, High).
-- **Proactive Mitigation:** Automatically generates recommended actions (e.g., "Reroute via Air Freight", "Priority Handling").
-- **Interactive Global Map:** Geospatial tracking of all active shipments using Google Maps.
-- **Predictive Analytics Engine:** Learns from historical delays using Machine Learning to forecast future bottlenecks.
+<div align="center">
+  <img src="assets/features.png" alt="Key Features" width="100%">
+</div>
+
+1. **Self-Healing Routing:** Automatically detects disruptions and reroutes deliveries in real-time.
+2. **Predictive Analytics:** Forecasts delays using AI before they occur.
+3. **Real-Time Tracking:** Provides live visibility of delivery movement.
+4. **Dynamic Rerouting:** Continuously updates routes based on current conditions.
+5. **Carbon Optimization:** Minimizes CO₂ emissions by selecting greener routes.
+6. **Multi-Factor Optimization:** Balances time, cost, and sustainability in decisions.
+7. **Smart Alerts:** Instantly notifies users about risks and disruptions.
+8. **Explainable AI:** Clearly explains why decisions or route changes are made.
+9. **Scalable & Multimodal:** Supports global expansion across road, air, and sea logistics.
+
+---
+
+## 🚀 Innovation & Scalability
+<div align="center">
+  <img src="assets/innovation_scalability.png" alt="Innovation and Scalability" width="100%">
+</div>
+
+### 🥇 Innovation
+*   **Self-Healing Supply Chain** – system automatically predicts disruptions and fixes them via real-time rerouting
+*   **Predictive Intelligence** – uses AI to detect delays before they occur (proactive approach)
+*   **Carbon-Aware Optimization** – integrates sustainability by minimizing CO₂ along with time and cost
+*   **Multi-Factor Decision Engine** – optimizes across time, cost, and environmental impact simultaneously
+*   **Explainable AI** – provides clear reasoning behind routing and optimization decisions
+*   **Multi-Domain Adaptability** – one platform works for agriculture, medical, and e-commerce logistics
+
+### 📈 Scalability
+*   **Cloud-Native Architecture** – built on scalable infrastructure (auto-scale based on demand)
+*   **Global Expansion Ready** – supports region-wise deployment across countries
+*   **Multimodal Support** – extendable to road, air, and sea logistics
+*   **Handles Large Data Volume** – processes real-time tracking + historical data efficiently
+*   **Modular Microservices Design** – easy to add new features/services without affecting system
+*   **Industry-Agnostic** – adaptable to multiple logistics domains and use cases
+
+---
+
+## 🏗️ System Architecture & Process Flow
+
+### 🌊 Process Flow
+<div align="center">
+  <img src="assets/process_flow.png" alt="Process Flow" width="100%">
+</div>
+
+### 🧩 High-Level System Architecture
+<div align="center">
+  <img src="assets/high_level_arch.jpg" alt="High Level Architecture" width="100%">
+</div>
+
+### 🔧 Low-Level System Architecture
+<div align="center">
+  <img src="assets/low_level_arch.jpg" alt="Low Level Architecture" width="100%">
+</div>
+
+### 📊 Activity Diagram
+<div align="center">
+  <img src="assets/activity_diagram.jpg" alt="Activity Diagram" width="100%">
+</div>
+
+---
+
+## 💻 Prototype Screenshots
+
+<div align="center">
+  <img src="assets/prototype1.png" alt="OmniChain Prototype Screenshot 1" width="100%">
+</div>
+<br/>
+<div align="center">
+  <img src="assets/prototype2.png" alt="OmniChain Prototype Screenshot 2" width="100%">
+</div>
 
 ---
 
 ## 🛠️ Google Technologies & Services Used
-We built OmniChain from the ground up to be scalable, leveraging the best of Google Cloud and Google AI:
+We built OmniChain leveraging the best of the Google ecosystem to ensure seamless integration, high availability, and cutting-edge AI capabilities:
 
-*   🧠 **Google Gemini 2.5 Flash:** Used for real-time natural language reasoning. It analyzes telemetry data and generates human-readable disruption reasons and mitigation strategies.
+*   🧠 **Google Gemini 2.5 Flash API:** Used for real-time natural language reasoning. It analyzes telemetry data and generates human-readable disruption reasons and mitigation strategies.
 *   🤖 **Google Genkit:** Utilized as the orchestration framework to seamlessly integrate Gemini AI into our Node.js data pipeline.
 *   ☁️ **Google Cloud Run:** Hosts our containerized Backend API and Data Pipeline, providing autoscaling to handle sudden spikes in global logistics traffic.
 *   📨 **Google Cloud Pub/Sub:** Acts as the nervous system of our app, streaming thousands of mock shipment events asynchronously.
@@ -55,18 +141,11 @@ We built OmniChain from the ground up to be scalable, leveraging the best of Goo
 
 ---
 
-## 🏗️ System Architecture
-1. **Simulator / IoT Devices** push shipment data into a **Cloud Pub/Sub** topic.
-2. The **Data Engine (Cloud Run)** receives push events, queries **Gemini AI** for risk analysis, and writes the results to **BigQuery**.
-3. The **API Server (Cloud Run)** fetches analytics and live shipment statuses from BigQuery.
-4. The **React Dashboard (Firebase)** consumes the API to plot markers on **Google Maps** and display the risk-assessment UI.
-
----
-
 ## 🌍 Impact & Scalability
 ### **Impact**
 OmniChain specifically addresses the **United Nations Sustainable Development Goals (SDGs)**:
 - **SDG 9 (Industry, Innovation, and Infrastructure):** By optimizing routing, we increase the resilience of global infrastructure.
+
 - **SDG 12 (Responsible Consumption and Production):** By reducing transit times and preventing perishable goods from expiring during delays, we directly reduce global waste and lower carbon emissions.
 
 ### **Scalability**
@@ -82,5 +161,26 @@ In the future, we plan to expand OmniChain by:
 
 ---
 
-### **Team SPectra**
-- *Innovating for a resilient tomorrow.*
+## 💰 Cost Estimation (Google Cloud Free Tier Strategy)
+OmniChain is designed to be extraordinarily cost-efficient by taking full advantage of serverless architectures and Google Cloud's Free Tier:
+- **Cloud Run:** Only runs when processing data. Free tier covers 2 million requests per month.
+- **Cloud Pub/Sub:** First 10 GB of messages per month are free.
+- **BigQuery:** 1 TB of querying and 10 GB of storage are free per month.
+- **Gemini API:** Generous free tier quotas for reasoning and natural language processing.
+- **Firebase Hosting:** Free bandwidth for standard usage.
+
+*Our modular microservices design ensures we only pay for exactly what we compute, keeping operational costs near zero during testing and highly predictable at scale.*
+
+---
+
+## 🌍 Impact on UN Sustainable Development Goals
+OmniChain specifically addresses:
+- **SDG 9 (Industry, Innovation, and Infrastructure):** Increasing the resilience and efficiency of global infrastructure through intelligent automation.
+- **SDG 12 (Responsible Consumption and Production):** Reducing global waste (especially perishable goods) by avoiding delays, and directly lowering carbon footprint via our Carbon-Aware Optimization.
+
+---
+
+<div align="center">
+  <p><strong>Team SPectra</strong></p>
+  <p><em>Innovating for a resilient tomorrow.</em></p>
+</div>
