@@ -1,0 +1,21 @@
+{
+  "name": "OmniChain AI – Supply Chain Control Center",
+  "short_name": "OmniChain AI",
+  "description": "Intelligent real-time supply chain monitoring powered by Google Gemini AI",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#060d14",
+  "theme_color": "#00d4ff",
+  "orientation": "landscape-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='32' fill='%23060d14'/><text y='140' font-size='120' x='16'>🛰️</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "business"],
+  "screenshots": [],
+  "lang": "en"
+}
