@@ -19,9 +19,6 @@
 ---
 
 ## 🚨 The Problem: Opportunities & Industry Needs
-<div align="center">
-  <img src="assets/opportunities_usp.png" alt="Opportunities & USP" width="100%">
-</div>
 
 ### 🏆 Opportunities
 - **Rising complexity** in global supply chains → huge demand for **intelligent systems**
@@ -53,9 +50,6 @@
 ---
 
 ## 🌟 Key Features
-<div align="center">
-  <img src="assets/features.png" alt="Key Features" width="100%">
-</div>
 
 1. **Self-Healing Routing:** Automatically detects disruptions and reroutes deliveries in real-time.
 2. **Predictive Analytics:** Forecasts delays using AI before they occur.
@@ -70,9 +64,6 @@
 ---
 
 ## 🚀 Innovation & Scalability
-<div align="center">
-  <img src="assets/innovation_scalability.png" alt="Innovation and Scalability" width="100%">
-</div>
 
 ### 🥇 Innovation
 *   **Self-Healing Supply Chain** – system automatically predicts disruptions and fixes them via real-time rerouting
