@@ -1,8 +1,9 @@
+require('dotenv').config();
 const { genkit, z } = require('genkit');
 const { googleAI } = require('@genkit-ai/google-genai');
 
 const ai = genkit({
-  plugins: [googleAI({ apiKey: 'AIzaSyAu_wp9y93d1vCi1DeHGnF9E0f0vi-_5Gs' })],
+  plugins: [googleAI({ apiKey: process.env.GEMINI_API_KEY })],
 });
 
 async function run() {

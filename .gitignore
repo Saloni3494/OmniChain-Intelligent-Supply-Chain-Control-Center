@@ -41,5 +41,3 @@ Thumbs.db
 *.sln
 *.sw?
 
-api-server/index.json
-api-server/scratch.js

@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+require('dotenv').config();
 const { BigQuery } = require('@google-cloud/bigquery');
 const { genkit, z } = require('genkit');
 const { googleAI } = require('@genkit-ai/google-genai');
@@ -11,7 +12,7 @@ app.use(express.json());
 const PORT = process.env.PORT || 3001;
 const PROJECT_ID = process.env.PROJECT_ID || 'pelagic-height-474717-e7';
 const DATASET = 'supply_chain_data';
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY || 'AIzaSyAu_wp9y93d1vCi1DeHGnF9E0f0vi-_5Gs';
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
 const bq = new BigQuery({ projectId: PROJECT_ID });
 const ai = genkit({
