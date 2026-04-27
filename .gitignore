@@ -40,3 +40,6 @@ Thumbs.db
 *.njsproj
 *.sln
 *.sw?
+
+api-server/index.json
+api-server/scratch.js
